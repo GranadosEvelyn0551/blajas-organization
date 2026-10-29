@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Acceso y Registro - Black Hat Organization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="BHO_logo.png" alt="Black Hat Organization Logo" class="logo-principal">
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos-servicios.html">Productos y Servicios</a>
+        <a href="rip.html">Iniciar Sesion / Registrarse</a>
+    </nav>
+
+    <div class="contenido">
+        <h1 class="titulo-pagina">ACCESO DE MIEMBROS</h1>
+        <p class="subtitulo-pagina">Identificate o unete a nuestra distinguida lista de almas desafortunadas</p>
+
+        <div class="contenedor-formularios">
+            <!--formulariO de inicio de sesion-->
+            <div class="caja-formulario">
+                <h2>Iniciar Sesion</h2>
+                <form action="login.php" method="POST">
+                    <label>Correo electronico:</label><br>
+                    <input type="email" name="email_login" placeholder="ejemplo@correo.com" required><br><br>
+
+                    <label>Contraseña:</label><br>
+                    <input type="password" name="pass_login" placeholder="Tu contraseña" required><br><br>
+
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+
+            <!--Formulario de registro-->
+            <div class="caja-formulario">
+                <h2>Registrarse</h2>
+                <form action="rip.php" method="POST">
+                    <label>Nombre de usuario:</label><br>
+                    <input type="text" name="nombre" placeholder="Tu usuario" required><br><br>
+
+                    <label>Correo electronico:</label><br>
+                    <input type="email" name="email_reg" placeholder="tucorreo@blackhatorganization.com" required><br><br>
+
+                    <label>Crea una contraseña:</label><br>
+                    <input type="password" name="pass_reg" placeholder="Tu contraseña" required><br><br>
+
+                    <button type="submit">Registrarse (Ahora!)</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Granados Aguirre Evelyn Ivonne</p>
+        <p>Num.Control: 24308051280551</p>
+    </footer>
+</body>
+</html>
