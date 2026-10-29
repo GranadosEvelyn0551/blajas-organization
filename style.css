@@ -5,6 +5,7 @@ body {
     color: #ffffff;
 }
 
+/*el estilo para la barra superior que contiene el logotipo de la organizaciOn */
 header {
     background-color: #000000;
     text-align: center;
@@ -19,6 +20,7 @@ header {
     margin: 0 auto;
 }
 
+/*estilo para el menu de navegacion principal entre paginas */
 nav {
     background-color: #1a0000;
     padding: 15px;
@@ -36,17 +38,19 @@ nav a:hover {
     color: #ff3333;
 }
 
+/*contenedor general para centrar y dar espacio al texto de las paginas para que se vea organizadO */
 .contenido {
     padding: 20px;
     text-align: center;
 }
 
-/* Secciones simples para el inicio */
+/*contenedor que agrupa las tarjetas informativas de la pagina de inicio(donde aparece hasta mi negrO)*/
 .secciones {
     text-align: center;
     padding: 20px;
 }
 
+/*diseño de cada cajita o tarjeta individual en el inicio */
 .seccion {
     background-color: #1e1e1e;
     width: 280px;
@@ -69,6 +73,7 @@ nav a:hover {
     font-size: 1.1rem;
 }
 
+/*estilo general para los botones de accion de la pagina */
 button {
     background-color: #cc0000;
     color: white;
@@ -91,7 +96,7 @@ footer {
     border-top: 1px solid #333;
 }
 
-/* Titulos y catalogos basicos */
+/*titulos principales de las secciones secundarias */
 .titulo-pagina {
     color: #ff0000;
     margin-top: 30px;
@@ -107,6 +112,7 @@ footer {
     margin-bottom: 40px;
 }
 
+/*tarjetotAs alargadas para mostrar productos y servicios en mi pagina de productos y serviciOS*/
 .item-card {
     background-color: #1e1e1e;
     border: 1px solid #333;
@@ -117,6 +123,7 @@ footer {
     text-align: left;
 }
 
+/*tamañotE fijo para las imagenes dentro de los productos y servicios */
 .img-cuadrada {
     width: 120px;
     height: 120px;
@@ -138,19 +145,20 @@ footer {
     line-height: 1.3;
 }
 
-/* Limpiar flotados basicos */
+/*un trucote enseñadp por el mero mero del flugs para evitar que la tarjeta pierda su tamaño cuando la imagen esta flotando a la izquierda */
 .item-card::after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Estilos tradicionales y ordenados para los formularios */
+/*contenedor principal que centra los formularios de acceso y registro */
 .contenedor-formularios {
     text-align: center;
     padding: 20px;
 }
 
+/*el diseño de la cajita individual para cada formulario (login y registro) */
 .caja-formulario {
     background-color: #1e1e1e;
     border: 1px solid #333;
@@ -177,6 +185,7 @@ footer {
     color: #ccc;
 }
 
+/*campos de texto donde el usuario escribe su correo y contraseñotA */
 .caja-formulario input {
     width: 100%;
     padding: 8px;
