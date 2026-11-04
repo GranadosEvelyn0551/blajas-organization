@@ -199,3 +199,10 @@ footer {
 .caja-formulario button {
     width: 100%;
 }
+
+.carrito {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 15px;
+}
