@@ -44,35 +44,6 @@ nav a:hover {
     text-align: center;
 }
 
-/*contenedor que agrupa las tarjetas informativas de la pagina de inicio(donde aparece hasta mi negrO)*/
-.secciones {
-    text-align: center;
-    padding: 20px;
-}
-
-/*diseño de cada cajita o tarjeta individual en el inicio */
-.seccion {
-    background-color: #1e1e1e;
-    width: 280px;
-    padding: 15px;
-    margin: 15px auto;
-    text-align: center;
-    border: 1px solid #333;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.seccion img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-}
-
-.seccion h2 {
-    color: #ff1a1a;
-    font-size: 1.1rem;
-}
-
 /*estilo general para los botones de accion de la pagina */
 button {
     background-color: #cc0000;
@@ -143,6 +114,7 @@ footer {
     color: #ccc;
     font-size: 0.9rem;
     line-height: 1.3;
+    text-align: justify;
 }
 
 /*un trucote enseñadp por el mero mero del flugs para evitar que la tarjeta pierda su tamaño cuando la imagen esta flotando a la izquierda */
