@@ -11,8 +11,8 @@
     </header>
     <nav>
         <a href="index.html">Inicio</a>
-        <a href="productos.html">Productos</a>
-        <a href="servicios.html">Servicios</a>
+        <a href="productos.php">Productos</a>
+        <a href="servicios.php">Servicios</a>
         <a href="rip.html">Iniciar Sesion / Registrarse</a>
         <a href="carrito.html" class="dif"><img src="cart.png" class="carrito-b"></a>
     </nav>
