@@ -13,8 +13,8 @@
         <a href="index.html">Inicio</a>
         <a href="productos.php">Productos</a>
         <a href="servicios.php">Servicios</a>
+        <a href="carrito.php" class="dif"><img src="cartw.png" class="carrito-b"></a>
         <a href="rip.html">Iniciar Sesion / Registrarse</a>
-        <a href="carrito.html" class="dif"><img src="cart.png" class="carrito-b"></a>
     </nav>
 
     <div class="contenido">
@@ -29,7 +29,11 @@
                     <h2>Hotel Black Hat para secuaces inútiles</h2>
                     <p>¿Están tus secuaces tan cansados ​​que su torpeza natural se ha multiplicado por diez? ¿Se atreven a pedir un descanso? ​​Pues estás
                         de suerte, porque por primera vez puedes enviarlos al balneario Black Hat para secuaces inútiles.</p>
-                    <button><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="11">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
                 </div>
             </div>
 
@@ -41,7 +45,11 @@
                     <p>¿Tu nave choco contra un ciervo espacial?, ¿quizas destrozaste el motor en un ataque de ira?, ¡No te preocupes!, con el 
                         seguro "El Buitre" de Black Hat Organization, aseguramos tu nave y te proporcionamos una nueva gratis. Al contratar nuestra 
                         exclusiva cobertura de lujo, ¡no importa si tu accidente es insignificante o grave!</p>
-                    <button><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="12">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
                 </div>
             </div>
 
@@ -54,7 +62,11 @@
                         camino de nuestros disfraces mediante metodos dolorosos, poco eticos y poco ortodoxos que permaneceran ocultos a los clientes 
                         debido a su naturaleza espantosa. Sin embargo, por un costo adicional, Black Hat Organization esta mas que dispuesta a 
                         compartir detalles e incluso grabaciones del acto</p>
-                    <button><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="13">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
                 </div>
             </div>
 
@@ -65,7 +77,11 @@
                     <h2>Posesion de objetos</h2>
                     <p>¿Cansado de que los dioses encanten armas para los héroes y no puedas derrotarlos? ¿Te gustaría tener tu propio objeto encantado? 
                         ¡Pues con el servicio de posesión puedes conseguirlo! El mismísimo Lord Black Hat se encargará del asunto</p>
-                    <button><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="14">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
                 </div>
             </div>
 
@@ -75,7 +91,11 @@
                 <div class="item-info">
                     <h2>Pastel hasta su casA</h2>
                     <p>Al ser miembro de nuestra malvada organizacion, tendras como servicio pasteles hecho con un horrible amor..</p>
-                    <button><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="15">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
                 </div>
             </div>
 
@@ -87,7 +107,11 @@
                     <p>¿Su traje malvado cuenta con pinchos y de mas detalles que no cualquiera se atreve a arreglar?, ¡No se preocupe! con nosotros 
                         su traje quedara 
                         perfecto para enfrentar a su heroe</p>
-                    <button><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="16">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
                 </div>
             </div>
 
@@ -97,7 +121,11 @@
                 <div class="item-info">
                     <h2>Campamento para jovenes Villanos</h2>
                     <p>Entrenamiento y asesoramiento para niños superdotados para transformarlos de diablillos malvados en villanos temibles</p>
-                    <button><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="17">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
                 </div>
             </div>
 
@@ -111,7 +139,11 @@
                         través de correo electrónico virtual (V-mail), que se enviará a una cola y llegará en el momento que le convenga a la organización. 
                         Su información se 
                         guardará en la base de datos y se procesará.</p>
-                    <button><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="18">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
                 </div>
             </div>
 
@@ -126,7 +158,11 @@
                         pasos en el mundo del crimen y, en raras ocasiones, niños que odian a 
                         sus padres héroes, o jóvenes héroes renegados que creen que el camino 
                         del mal es el mejor.</p>
-                    <button><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="19">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
                 </div>
             </div>
 
@@ -140,7 +176,11 @@
                         tiene un estilo único, por lo que nuestro personal le brindará una consultoría personalizada que se adapte a 
                         sus necesidades específicas. El precio de este servicio dependerá de la complejidad del caso y, por supuesto,
                         del asesor asignado.</p>
-                    <button><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="20">
+                        <input type="hidden" name="volver" value="servicios.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Contratar Servicio</button>
+                    </form>
                 </div>
             </div>
         </div>
