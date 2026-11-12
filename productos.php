@@ -13,7 +13,7 @@
         <a href="index.html">Inicio</a>
         <a href="productos.php">Productos</a>
         <a href="servicios.php">Servicios</a>
-        <a href="carrito.php" class="dif"><img src="cartw.png" class="carrito-b"></a>
+        <a href="carrito.php"><img src="cartw.png" class="carrito-b"></a>
         <a href="rip.html">Iniciar Sesion / Registrarse</a>
     </nav>
 
