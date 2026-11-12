@@ -13,6 +13,7 @@
         <a href="index.html">Inicio</a>
         <a href="productos.php">Productos</a>
         <a href="servicios.php">Servicios</a>
+        <a href="carrito.php" class="dif"><img src="cartw.png" class="carrito-b"></a>
         <a href="rip.html">Iniciar Sesion / Registrarse</a>
     </nav>
 
@@ -27,7 +28,11 @@
                 <div class="item-info">
                     <h2>RAYO MALIGNO</h2>
                     <p>¡Este dispositivo hara que tus pesadillas se hagan realidad...literalmente! (O quizas no solo cosas malvadas..)</p>
-                    <button><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="1">
+                        <input type="hidden" name="volver" value="productos.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    </form>
                 </div>
             </div>
 
@@ -37,7 +42,11 @@
                 <div class="item-info">
                     <h2>Dispositivo antigravedad (No es un rayo eh)</h2>
                     <p>BATERIA DE LITIO DE POLIMERO RECARGABLE DE 300 MAH INTEGRADA que garantiza que tu tambien flotaras.</p>
-                    <button><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="2">
+                        <input type="hidden" name="volver" value="productos.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    </form>
                 </div>
             </div>
 
@@ -47,7 +56,11 @@
                 <div class="item-info">
                     <h2>Dispositivo Medusa</h2>
                     <p>Desde langostas de roca hasta gnomos de jardin, ¡lo que tu imaginas, lo creas!, ¡Crea las estatuas mas fieles a tu malvada grandeza, intentando compensar algo que te falta!</p>
-                    <button><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="3">
+                        <input type="hidden" name="volver" value="productos.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    </form>
                 </div>
             </div>
             
@@ -57,7 +70,11 @@
                 <div class="item-info">
                     <h2>La guitarra de Demencia</h2>
                     <p>Destruye el techo y sacude los pisos. Esta guitarra única con una decoración audaz y exclusiva garantiza un sonido potente y ensordecedor que no te dejará oírte a ti mismo ni a nadie en un radio de diez millas. Solo llévatela, no queremos que la toque más, POR FAVOR.</p>
-                    <button><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="4">
+                        <input type="hidden" name="volver" value="productos.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    </form>
                 </div>
             </div>
 
@@ -67,7 +84,11 @@
                 <div class="item-info">
                     <h2>Sistema de seguridad BHO</h2>
                     <p>Da igual si se trata de un pájaro molesto o del cartero, este sistema de seguridad mantiene tu guarida a salvo y tu césped en llamas.</p>
-                    <button><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="5">
+                        <input type="hidden" name="volver" value="productos.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    </form>
                 </div>
             </div>
 
@@ -77,7 +98,11 @@
                 <div class="item-info">
                     <h2>Rayo de Manipulacion de Tamaño</h2>
                     <p>Hace cosas grandes y pequeñas, ¿de verdad es tan difícil? Pero si de verdad no lo entiendes, ¡también vendemos cerebros!</p>
-                    <button><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="6">
+                        <input type="hidden" name="volver" value="productos.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    </form>
                 </div>
             </div>
 
@@ -87,7 +112,11 @@
                 <div class="item-info">
                     <h2>Cabeza de Quetzalcoatl</h2>
                     <p>¿Quieres esfumar a tus enemigos en un parpadeo?, ¡esta cabeza te encantara, elimina a tu peor enemigo, a tu suegra o tus mismos empleados!</p>
-                    <button><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="7">
+                        <input type="hidden" name="volver" value="productos.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    </form>
                 </div>
             </div>
 
@@ -97,7 +126,11 @@
                 <div class="item-info">
                     <h2>Flor Fetida</h2>
                     <p>¿Eres un pobre villano que no deja de ser amable?, ¡No sufras mas!..pues con esta flor podras hacer todo lo malvado que se le ocurra..</p>
-                    <button><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="8">
+                        <input type="hidden" name="volver" value="productos.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    </form>
                 </div>
             </div>
 
@@ -107,7 +140,11 @@
                 <div class="item-info">
                     <h2>kit "Mi Villanía"</h2>
                     <p>¿Su pequeño parasito no muestra señales de villania?, nosotros le echamos la mano con nuestro kit para prqueños villanos, ¡aproveche la oferta!</p>
-                    <button><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="9">
+                        <input type="hidden" name="volver" value="productos.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    </form>
                 </div>
             </div>
 
@@ -117,7 +154,11 @@
                 <div class="item-info">
                     <h2>Hat-B0T</h2>
                     <p>¿Buscas un esclavo competente?, ¿sus empleados no dan la talla?, ¡no se preocupe!, nuestros Hat-Bots están listos para servirte</p>
-                    <button><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    <form action="agregar_carrito.php" method="POST">
+                        <input type="hidden" name="id_producto" value="10">
+                        <input type="hidden" name="volver" value="productos.php">
+                        <button type="submit"><img src="cart.png" class="carrito">Adquirir Producto</button>
+                    </form>
                 </div>
             </div>
         </div>
